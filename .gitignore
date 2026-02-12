@@ -1,5 +1,20 @@
+# Data files
 *.csv
 *.xlsx
 *.zip
-.jpynb_checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Anaconda
+anaconda_projects/
+
+# Mac
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
