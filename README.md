@@ -8,19 +8,19 @@ The goal of this project is to find the main factors that affect incident severi
 
 [Phase 1] Exploratory Analysis (Sample-based)
 
-4. Data Understanding: Initial Inspection & Sampling
+3. Data Understanding: Initial Inspection & Sampling
 3.1 Data Loading & Schema Verification Strategy
 3.2 Numerical & Target Distribution
 3.3 Severity-Segmented Analysis
 
-5. Data Preparation (Sample)
+4. Data Preparation (Sample)
 4.1 Physical Outlier Cleaning
 4.2 DateTime Convert
 4.3 Missing Values
 4.4 Drop Redundant Columns
 4.5 Preview after data preparation
 
-6. Analysis (Sample-based EDA)
+5. Analysis (Sample-based EDA)
 5.1 Hourly Distribution by Severity
 5.2 Road Features (POI)
 5.3 Weather & Environmental Analysis
@@ -62,7 +62,6 @@ The goal of this project is to find the main factors that affect incident severi
 This project performed a comprehensive analysis of 7.7 million traffic accident records to establish a data-driven safety management framework. By shifting the focus from simple accident counts to impact-based severity (Severity 1–4), the analysis identified that traffic risks are not uniform across the United States.
 The core finding of this project is the regional divergence of severity profiles. Some states face critical system-wide paralysis (S4) during specific weather events, while others struggle with infrastructure-related serious injuries (S3) or chronic urban congestion (S2). This divergence proves that a one-size-fits-all national policy is inefficient. Instead, safety resources—ranging from federal winter assets to local towing services—must be allocated based on the specific severity dominant in each region.
 By integrating weather triggers, infrastructure types, and geographic concentrations, this study provides a tiered response model (Federal, State, and Local). This approach ensures that interventions are precisely matched to the impact level of the accidents they aim to mitigate.
-
 9.2 Limitations and Future Work
 [Critical Limitations]
 Road Type Identification: While this study identified high-impact cities and states, it did not distinguish between Interstate Highways and Local Streets.
